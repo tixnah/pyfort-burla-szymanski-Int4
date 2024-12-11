@@ -4,17 +4,20 @@ def shell_game():
     attempt = 1
     key_count = 0
 
-    while attempt <= 2 :
+    for i in range(2) :
         guess = random.choice(L)
         user_guess = input("Choose a shell between A, B or C : ")
+
+        while user_guess != 'A' and user_guess != 'B' and user_guess != 'C' :
+            user_guess = input("Choose a shell between A, B or C : ")
 
         if user_guess in L :
             if user_guess == guess :
                 print("Correct ! You win a key !")
                 key_count += 1
-            else :
+            elif user_guess != guess and attempt < 2 :
                 print("Wrong choice, you got", 2 - attempt, "attempt left.")
-        else :
-            print("Wrong input.")        #Verifies if the user's input is really one of the options
-
+            elif user_guess != guess and attempt == 2:
+                print("You lose...")
         attempt += 1
+
