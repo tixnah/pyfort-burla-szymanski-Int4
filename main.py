@@ -8,3 +8,7 @@ shell_game()
 
 
 # implementation of the rolling dice game
+print("Welcome to the rolling dice game !")
+print("You play against the Game Master. The first to roll a 6 wins ! You have 3 attempts to try to win.")
+print("Good luck ;)")
+roll_dice_game()
