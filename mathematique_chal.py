@@ -60,6 +60,7 @@ def math_roulette_challenge():
      a=random.randint(1,10)
      b=random.randint(1,10)
      return -b/a
+
  def math_challenge_equation():
 
 
