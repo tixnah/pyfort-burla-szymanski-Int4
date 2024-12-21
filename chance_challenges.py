@@ -4,7 +4,6 @@ import random
 def shell_game():
     l = ['A', 'B', 'C']     #initialization of the list of shells
     attempt = 1             #initialization of the number of attempts
-    key_count = 0           #to count the number of keys in the game
     found = False
 
     while found == False and attempt <= 2 :   #the loop is working while the shell is not found and the maximum number of attempt is not reached
@@ -18,7 +17,6 @@ def shell_game():
         if user_guess in l :            #to make sure the user's input is one of the elements in the list
             if user_guess == guess :    #verifies if the user input is the same as the program choice
                 print("Correct ! You win a key !")
-                key_count += 1      #the player wins a key
                 found = True
             elif user_guess != guess and attempt < 2 :  #the player made a wrong choice so he got to play again
                 print("Wrong choice, you got {} attempt left.".format(2-attempt))
@@ -32,7 +30,6 @@ def shell_game():
 # Rolling dice game function
 def roll_dice_game():
     max_attempts = 3
-    key_count = 0
 
     for attempt in range(1, max_attempts + 1):      #the game will play until 3 attempts
         print("This is your attempt number {}.".format(attempt))    #tells the player in which attempt he plays
@@ -42,7 +39,6 @@ def roll_dice_game():
 
         if 6 in player_dice :       #if the player has a 6, he wins and the challenge stops
             print("You won! Here is a key")
-            key_count += 1
             return True
 
         print("This is now the game master's turn")
