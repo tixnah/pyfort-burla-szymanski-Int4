@@ -11,13 +11,13 @@ For 17/12 :
 
 
 For 21/12 :
-- Conditions to succeed 
-- Number of players
-- Succeeds
-- Treasure room
+- Conditions to succeed : Laure
+- Number of players - Utility functions : Laure
+- Succeeds - nb of keys : Cristina 
+- Treasure room - final challenge : Cristina
  
 
-For 25/12 :
+For 25/12 : (?)
 - Interface :
     * Home screen
     * Little character and his movements
