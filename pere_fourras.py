@@ -13,13 +13,12 @@ def load_riddles(file):
 
 
 def pere_fouras_riddles():
-    '''
-    Returns True if the player wins , False if he doesnt.
-    '''
+
+    #Returns True if the player wins , False if he doesnt.
     # Local variables
-    riddles_list = load_riddles('riddles.json')  # Load riddles from JSON file
+    riddles_list = load_riddles('riddles.json')  # Load riddles from the fil
     selected_riddle = random.choice(riddles_list)  # Randomly select a riddle
-    attempts = 3  # Number of attempts
+    attempts = 3
 
     # print the riddle
     print("Pere Fouras's Riddle:")
@@ -27,11 +26,9 @@ def pere_fouras_riddles():
 
     #  loop for tries
     while attempts > 0:
-        # ask player's answer
-        player_answer = input("Your answer: ")
+        player_answer = input("Your answer: ")  # ask player's answer
 
-        # is the answer correct?
-        if player_answer == selected_riddle['answer']:
+        if player_answer == selected_riddle['answer']:  # is the answer correct?
             print("Correct! You win a key!")
             return True  # the player win a key
         else:

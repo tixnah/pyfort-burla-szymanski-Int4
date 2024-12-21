@@ -23,6 +23,14 @@ else:
 
 print("You have {} keys".format(key_count))
 
+#third maths game
+
+if math_challenge_equation():
+    print("Correct! You win a key.")
+    key_count+=1
+else:
+    print("You lost the opportunity to win a key!")
+
 # pere fourras' game
 
 from pere_fourras import *
