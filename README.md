@@ -1,30 +1,30 @@
 # **# Fort-Boyard-Simulator**
 
-### General presentation: 
-# members :
+## General presentation: 
+### members :
 laure 
 christina
 
-# Description:
+### Description:
 
 we are creating a fort boyard simulator, implying various types of games such as : Mathematics challenge,  Logic challenge,  Chance challenge,Père Fouras' riddle
 for each game success the player gets a key key and when they have collected 3 key they have access to a treasure room and have to solve a final challenge.
 
 for this we used python and worked we libraries such as: and tools such as :
 
-# Installation :
+### Installation :
 to be completed 
 
-# How to use :
+### How to use :
 
 to be completed 
 
-### Technical documentation
+## Technical documentation
 
 to be completed : as a numbered list with explanation of function protoypes
 
 
-### Chronology:
+## Chronology:
 
 For 17/12 :
 - Challenges :
@@ -52,7 +52,7 @@ For 25/12 : (?)
 Final submission : 05/01/2025
 Defense : 06/01/2025**
 
-### Testing validation :
+## Testing validation :
 
 to be completed
 
