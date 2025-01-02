@@ -1,0 +1,68 @@
+def introduction(): #explain the rules of the game.
+    print('Hello Player(s)!')
+    print('The goal of this game is to collect keys by winning different games. When you will have collected 3 keys then you will have access to a treasure room and resolve the final challenge !')
+
+def compose_equipe(): #function to compose a team
+
+    equipe_list=[] # init of an empty list to store the data of the players.
+    number_of_player=int(input('How many players do you have?'))
+    leader_found = False
+
+    while number_of_player>4 or number_of_player<1:
+        number_of_player=int(input('How many players do you have?'))
+
+    for i in range(number_of_player):
+        leader=False
+        name=input('What is your name player {}?:'.format(i+1))
+        profession=input('What is your profession player {} ?:'.format(i+1))
+        is_leader=input('Are you  the team leader player {} ?:'.format(i+1)).split.lower
+        for j in is_leader :
+            if j=='yes' and not leader_found:
+                leader=True
+                leader_found=True
+
+        player= { 'name':name, 'profession':profession, 'is_leader':leader, 'key_won': 0 }
+
+        equipe_list.append(player) #add to the list the list each dictionnary containing the info of the player.
+
+    if not leader_found: #if there is not any leader found, set the first player as the leader.
+        equipe_list[0]['is_leader']=True
+
+    return equipe_list #return the list with the players who makes up the teams.
+
+def challenge_menu(): # function which display a menu allowing the user to choose from different type of challenge.
+    print('Welcome to the Challenge Menu! You can choose the following options:')
+    print("1. Mathematics challenge")
+    print("2. Logic challenge")
+    print("3. Chance challenge")
+    print("4. Père Fouras' riddle")
+
+    choice=int(input('Enter your choice: ')) #the user choose what type of challenge he wants to do.
+
+    if choice in [1,2,3,4]:
+        return choice
+    else:
+        while choice not in [1,2,3,4]: #the user has to reunter the number while it is not in the range 1-4.
+            choice = int(input('Error, Enter again your choice beetween 1 and 4: '))
+        return choice
+
+def choose_players(equipe_list):
+    if len(equipe_list)>1:
+        for index,player in enumerate(equipe_list):
+            if player['is_leader']:
+                role= "Leader"
+            else:
+                role= "Member"
+            #display the list of member and their informations
+            print("{} {} ({})-{}".format(index+1,player['name'],player['profession'],role))
+
+        member_choice=int(input('Enter the number of the player that will be playing: ')) #the user choose what type of challenge he wants to do.
+
+        if 1 <= member_choice <= len(equipe_list):
+            return equipe_list[member_choice-1]
+        else:
+            while member_choice < 1  or member_choice >len(equipe_list): #the user has to reunter the number while it is not in the range 1-3.
+                member_choice = int(input('Error, Enter again your choice: '))
+            return equipe_list[member_choice-1]
+    else:
+        return equipe_list[0]
