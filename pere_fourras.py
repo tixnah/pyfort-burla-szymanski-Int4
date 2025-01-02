@@ -7,14 +7,14 @@ import random
 
 def load_riddles(file):
     #  take riddles from the JSON file.
-    with open(file, 'r') as f:
+    with open('file', 'r',encoding='utf-8') as f:
         riddles = json.load(f)
     return riddles
 
 
 def pere_fouras_riddles():
 
-    #Returns True if the player wins , False if he doesnt.
+    #Returns True if the player wins, False if he doesnt.
     # Local variables
     riddles_list = load_riddles('riddles.json')  # Load riddles from the fil
     selected_riddle = random.choice(riddles_list)  # Randomly select a riddle
