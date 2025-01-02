@@ -2,13 +2,12 @@
 
 ## General presentation: 
 ### members :
-laure 
-christina
+laure and christina
 
 ### Description:
 
-we are creating a fort boyard simulator, implying various types of games such as : Mathematics challenge,  Logic challenge,  Chance challenge,Père Fouras' riddle
-for each game success the player gets a key key and when they have collected 3 key they have access to a treasure room and have to solve a final challenge.
+we are creating a fort boyard simulator, implying various types of games such as : Mathematics challenge,  Logic challenge,  Chance challenge,Père Fouras' riddle.
+For each game success the player gets a key key and when they have collected 3 key they have access to a treasure room and have to solve a final challenge.
 
 for this we used python and worked we libraries such as: and tools such as :
 
