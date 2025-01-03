@@ -1,10 +1,11 @@
 #import of all the modules used
 
-#from chance_challenges import *
+
 #from logical_challenges import *
 #from final_challenge import *
 
 import random
+from chance_challenges import *
 from utility_function import *
 from pere_fouras_challenge import *
 
@@ -34,25 +35,25 @@ def game():
 
     while team_key_count<3:
         type_of_challenge = challenge_menu()
-        challenges ={
-            1:["math_roulette_challenge","math_challenge_prime","math_challenge_equation",],
-            2:["Logical_challenge"],
-            3:["Chance_challenge1","Chance_challenge2","Chance_challenge3"],
-            4:["pere_fouras_riddles"]
-        }
-        random_challenge= random.choice(challenges[type_of_challenge])
-        player,index_player = choose_players(team)
-        print("{} will be playing".format(player['name']))
-        print("You will be playing : {}".format(random_challenge))
 
-        random_challenge= globals()[random_challenge] # we use global to get the actual function reference and not just its name
+        player= choose_players(team)
 
-        result =random_challenge()
+        print("{} will be playing the game".format(player['name']))
 
-        #choose a random game in the challenge type the player choosed.
+        result= None
+
+        if type_of_challenge == 1:
+            result=math_challenge()
+        elif type_of_challenge == 2:
+            result=logical_challenge()
+        elif type_of_challenge == 3:
+            result = chance_challenge()
+        elif type_of_challenge ==4:
+            result=pere_fouras_riddles()
+
         if result :
             team_key_count+=1
-            team[index_player-1]['key_won']+=1
+            #team[index_player-1]['key_won']+=1
             print("You win a key.")
             print("You have overall {} keys".format(team_key_count))
 

@@ -92,8 +92,10 @@ def math_challenge_equation():
         print("Sorry but you didn't find the result.")
         return False
 
-
-
+def math_challenge():
+    challenges=[math_challenge_prime,math_roulette_challenge,math_challenge_equation] # assign all the maths function to the list
+    challenge=random.choice(challenges) # choose one randomly
+    return challenge() # call the function that has been randomly choosed
 
 
 

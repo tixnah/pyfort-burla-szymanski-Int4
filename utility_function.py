@@ -63,6 +63,6 @@ def choose_players(equipe_list):
         else:
             while member_choice < 1  or member_choice >len(equipe_list): #the user has to reunter the number while it is not in the range 1-3.
                 member_choice = int(input('Error, Enter again your choice: '))
-            return equipe_list[member_choice-1],member_choice
+            return equipe_list[member_choice-1]
     else:
-        return equipe_list[0],0
+        return equipe_list[0]
