@@ -1,13 +1,14 @@
 #import of all the modules used
 
-import random
-from mathematique_challenges import *
-from chance_challenges import *
-from logical challenges import *
-from pere_fouras_challenge import *
-from final_challenge import *
-from utility_function import *
+#from chance_challenges import *
+#from logical_challenges import *
+#from final_challenge import *
 
+import random
+from utility_function import *
+from pere_fouras_challenge import *
+
+from mathematique_challenges import *
 
     ###structure
     # introduction
@@ -37,30 +38,32 @@ def game():
             1:["math_roulette_challenge","math_challenge_prime","math_challenge_equation",],
             2:["Logical_challenge"],
             3:["Chance_challenge1","Chance_challenge2","Chance_challenge3"],
-            4:["père_Fouras_Riddle"]
+            4:["pere_fouras_riddles"]
         }
         random_challenge= random.choice(challenges[type_of_challenge])
-
+        player,index_player = choose_players(team)
+        print("{} will be playing".format(player['name']))
         print("You will be playing : {}".format(random_challenge))
 
-        result_of_challenge=random_challenge() #execution of the function
+        random_challenge= globals()[random_challenge] # we use global to get the actual function reference and not just its name
 
-        player=choose_players(team)
+        result =random_challenge()
+
         #choose a random game in the challenge type the player choosed.
-        if result_of_challenge=True :
+        if result :
             team_key_count+=1
-            team[player-1][key_count]+=1
-            print("Correct! You win a key.")
+            team[index_player-1]['key_won']+=1
+            print("You win a key.")
             print("You have overall {} keys".format(team_key_count))
 
         else :
-            print("You lost :( and don't win a key!")
-            print("You have overall {} keys".format(team_key_count))
+            print("You don't win a key :(.")
+            print("You overall have {} keys".format(team_key_count))
 
-    #when escaping the loop it means you have 3 keys and you acces the treasure room to do the final challenge.
-    final_challenge()
+    #when escaping the loop it means you have 3 keys and you access the treasure room to do the final challenge.
+    #final_challenge()
 
-
+game()
 
 
 

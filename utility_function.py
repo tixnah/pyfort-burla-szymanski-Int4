@@ -5,9 +5,9 @@ def introduction(): #explain the rules of the game.
 def compose_equipe(): #function to compose a team
 
     equipe_list=[] # init of an empty list to store the data of the players.
-    number_of_player=int(input('How many players do you have?'))
-    leader_found = False
 
+    leader_found = False
+    number_of_player = 0
     while number_of_player>4 or number_of_player<1:
         number_of_player=int(input('How many players do you have?'))
 
@@ -15,15 +15,15 @@ def compose_equipe(): #function to compose a team
         leader=False
         name=input('What is your name player {}?:'.format(i+1))
         profession=input('What is your profession player {} ?:'.format(i+1))
-        is_leader=input('Are you  the team leader player {} ?:'.format(i+1)).split.lower
-        for j in is_leader :
-            if j=='yes' and not leader_found:
+        if leader_found==False and number_of_player>1 : #onmy ask if the leader has not been found or if there is not only one player because he will be leader in any case if he is alone.
+            is_leader=input('Are you  the team leader player {} ? (answer by yes or no):'.format(i+1)).lower() # it is not case sensitive with le ".lower()".
+            if is_leader=='yes'and leader_found==False :
                 leader=True
                 leader_found=True
 
         player= { 'name':name, 'profession':profession, 'is_leader':leader, 'key_won': 0 }
 
-        equipe_list.append(player) #add to the list the list each dictionnary containing the info of the player.
+        equipe_list.append(player) #add to the list each dictionnary containing the info of the player.
 
     if not leader_found: #if there is not any leader found, set the first player as the leader.
         equipe_list[0]['is_leader']=True
@@ -31,13 +31,13 @@ def compose_equipe(): #function to compose a team
     return equipe_list #return the list with the players who makes up the teams.
 
 def challenge_menu(): # function which display a menu allowing the user to choose from different type of challenge.
-    print('Welcome to the Challenge Menu! You can choose the following options:')
+    print('You are in the Challenge Menu! You can choose the following options:')
     print("1. Mathematics challenge")
     print("2. Logic challenge")
     print("3. Chance challenge")
     print("4. Père Fouras' riddle")
 
-    choice=int(input('Enter your choice: ')) #the user choose what type of challenge he wants to do.
+    choice=int(input('Enter the number corresponding to the type of challenge of your choice: ')) #the user choose what type of challenge he wants to do.
 
     if choice in [1,2,3,4]:
         return choice
@@ -63,6 +63,6 @@ def choose_players(equipe_list):
         else:
             while member_choice < 1  or member_choice >len(equipe_list): #the user has to reunter the number while it is not in the range 1-3.
                 member_choice = int(input('Error, Enter again your choice: '))
-            return equipe_list[member_choice-1]
+            return equipe_list[member_choice-1],member_choice
     else:
-        return equipe_list[0]
+        return equipe_list[0],0
