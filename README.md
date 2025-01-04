@@ -46,6 +46,7 @@ For 25/12 : (?)
     * Little character and his movements
 - Bonus : History
 
+![image](https://github.com/user-attachments/assets/00eeabeb-84a2-4286-90a8-7e91c7e5ea18)
 
 **First submission : 21/12/2024
 Final submission : 05/01/2025
