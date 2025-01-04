@@ -38,6 +38,7 @@ def math_challenge_prime():
 def math_roulette_challenge():
     # local variable
     random_list=[]
+    val=0
 
     for i in range (5):
         random_list.append(random.randint(1,20)) #adding to the list 5 random numbers between 1 and 20.
@@ -59,11 +60,11 @@ def math_roulette_challenge():
         for num in random_list[1:]:
             val -= num
     if operator=='multiplication':
-        val=1
+        val+=1
         for num in random_list:
             val*=num
 
-    if players_answer==val:#check if the answer of the player is right
+    if players_answer== val :#check if the answer of the player is right
         print("Good job ! You found the result.")
         return True
     else:

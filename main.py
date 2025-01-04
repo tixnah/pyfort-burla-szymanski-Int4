@@ -1,25 +1,20 @@
-#import of all the modules used
-
-
-#from logical_challenges import *
-#from final_challenge import *
-
+#importing all the modules
 import random
-from chance_challenges import *
+from logical_challenge import *
+from chance_challenge import *
 from utility_function import *
 from pere_fouras_challenge import *
-
+from final_chal import *
 from mathematique_challenges import *
-
-    ###structure
-    # introduction
-    #team compo
-    #loop until the team has 3 keys.
-        #menu of challenge types, and select one
-        #choose of player
-        #launch a game randomly ( in the type range)
-        #if the player win the game he wins a key
-    #when the user have 3 keys the final challenge is unlock.
+###structure
+# introduction
+#team compo
+#loop until the team has 3 keys.
+#menu of challenge types, and select one
+#choose of player
+#launch a game randomly ( in the type range)
+#if the player win the game he wins a key
+#when the user have 3 keys the final challenge is unlock.
 
 def game():
     ##initialisation
@@ -45,7 +40,7 @@ def game():
         if type_of_challenge == 1:
             result=math_challenge()
         elif type_of_challenge == 2:
-            result=logical_challenge()
+            result=nim_game()
         elif type_of_challenge == 3:
             result = chance_challenge()
         elif type_of_challenge ==4:
@@ -62,10 +57,9 @@ def game():
             print("You overall have {} keys".format(team_key_count))
 
     #when escaping the loop it means you have 3 keys and you access the treasure room to do the final challenge.
-    #final_challenge()
 
-game()
-
+    print("Entering treasure room!")
+    treasure_room()
 
 
 
