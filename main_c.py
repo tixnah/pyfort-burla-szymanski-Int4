@@ -1,4 +1,5 @@
 from chance_challenges import *
+from logical_challenges import tictactoe_game
 
 key_count = 0  # to count the number of keys in the game
 
@@ -16,3 +17,6 @@ print("You play against the Game Master. The first to roll a 6 wins ! You have 3
 print("Good luck ;)")
 if roll_dice_game() :
     key_count += 1  # the player wins a key
+
+if tictactoe_game() :
+    key_count += 1
