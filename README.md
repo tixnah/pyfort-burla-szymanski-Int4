@@ -92,7 +92,8 @@ Defense : 06/01/2025**
 we tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. and then the final challenge. 
 
 for the introduction of the game using the utility functions:
-![introduction, compose equipe, choose of the game, choose of the player]![image](https://github.com/user-attachments/assets/eb6cce36-4f20-419a-af21-5a69aeba4bb0)
+
+![introduction, compose equipe, choose of the game, choose of the player](https://github.com/user-attachments/assets/b26d3123-3f34-4b8c-9f56-5cfa42986a2c)
 
 
 for the roulette challenge  :
