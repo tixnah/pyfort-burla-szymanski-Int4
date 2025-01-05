@@ -42,3 +42,4 @@ def nim_game() :
     else :
         print("You removed the last stick, you lose :( ")
         return False
+

@@ -1,0 +1,79 @@
+#FORT BOYAR PROJECT
+#Cristina Burla and Laure Szymanski
+
+#The role of this file is to store the utility functions used to start the game, to compose team, to choose the type of challenge and to choose the player that will be playing.
+
+import time
+def introduction(): #explain the rules of the game.
+    print('Hello Player(s)!')
+    time.sleep(1)
+    print('The goal of this game is to collect keys by winning different games. When you will have collected 3 keys then you will have access to a treasure room and resolve the final challenge !')
+
+def compose_equipe(): #function to compose a team
+
+    equipe_list=[] # init of an empty list to store the data of the players.
+
+    leader_found = False
+    number_of_player = 0
+    while number_of_player>4 or number_of_player<1:
+        number_of_player=int(input('How many players do you have?'))
+
+    for i in range(number_of_player):
+        leader=False
+        name=input('What is your name player {}?:'.format(i+1))
+        profession=input('What is your profession player {} ?:'.format(i+1))
+        if leader_found==False and number_of_player>1 : #onmy ask if the leader has not been found or if there is not only one player because he will be leader in any case if he is alone.
+            is_leader=input('Are you  the team leader player {} ? (answer by yes or no):'.format(i+1)).lower() # it is not case sensitive with le ".lower()".
+            if is_leader=='yes'and leader_found==False :
+                leader=True
+                leader_found=True
+
+        player= { 'name':name, 'profession':profession, 'is_leader':leader, 'key_won': 0 }
+
+        equipe_list.append(player) #add to the list each dictionnary containing the info of the player.
+
+    if not leader_found: #if there is not any leader found, set the first player as the leader.
+        equipe_list[0]['is_leader']=True
+
+    return equipe_list #return the list with the players who makes up the teams.
+
+def challenge_menu(): # function which display a menu allowing the user to choose from different type of challenge.
+    print('You are in the Challenge Menu! You can choose the following options:')
+    time.sleep(1)
+    print("1. Mathematics challenge")
+    print("2. Logic challenge")
+    print("3. Chance challenge")
+    print("4. Père Fouras' riddle")
+    time.sleep(1)
+
+    choice=int(input('Enter the number corresponding to the type of challenge of your choice: ')) #the user choose what type of challenge he wants to do.
+
+    if choice in [1,2,3,4]:
+        return choice
+    else:
+        while choice not in [1,2,3,4]: #the user has to reunter the number while it is not in the range 1-4.
+            choice = int(input('Error, Enter again your choice beetween 1 and 4: '))
+        return choice
+
+def choose_players(equipe_list):
+    if len(equipe_list)>1:
+        for index,player in enumerate(equipe_list):
+            if player['is_leader']:
+                role= "Leader"
+            else:
+                role= "Member"
+            #display the list of member and their informations
+            print("{}. {} ({})-{}".format(index+1,player['name'],player['profession'],role))
+        time.sleep(1)
+        member_choice=int(input('Enter the number of the player that will be playing: ')) #the user choose what type of challenge he wants to do.
+
+        if 1 <= member_choice <= len(equipe_list):
+            return equipe_list[member_choice-1]
+        else:
+            while member_choice < 1  or member_choice >len(equipe_list): #the user has to reunter the number while it is not in the range 1-3.
+                member_choice = int(input('Error, Enter again your choice: '))
+            return equipe_list[member_choice-1]
+    else:
+        return equipe_list[0]
+
+

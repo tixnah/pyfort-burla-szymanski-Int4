@@ -41,3 +41,4 @@ def treasure_room() :
 
     print("No more attempts :( The correct answer was {}".format(code_word))       #the player lost
     return False
+

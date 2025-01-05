@@ -46,3 +46,4 @@ def pere_fouras_riddles():
                 time.sleep(1)
                 print("The correct answer was: {}".format(selected_riddle['answer']))
                 return False  # Player doesnt win
+
