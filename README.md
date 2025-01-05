@@ -91,12 +91,12 @@ Defense : 06/01/2025**
 ## Testing validation :
 we tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. and then the final challenge. 
 
-for the introduction of the game using the utility functions:
+###for the introduction of the game using the utility functions:
 
 ![introduction, compose equipe, choose of the game, choose of the player](https://github.com/user-attachments/assets/b26d3123-3f34-4b8c-9f56-5cfa42986a2c)
 
-
-for the roulette challenge  :
+###For the math challenges
+####for the roulette challenge  :
 
 fail:
 ![roulette math fail](https://github.com/user-attachments/assets/dbafa935-3799-4acd-8ec3-1143c97acc8b)
@@ -121,6 +121,15 @@ fail:
 
 sucess:
 ![roulette math success](https://github.com/user-attachments/assets/bba190bc-d41e-4fd4-be1e-c7b481bf6c38)
+
+###For père fouras' challenge:
+
+fail:
+![pere fourras fail](https://github.com/user-attachments/assets/fd632265-ac1c-41d7-8ffd-893d37a575b5)
+
+sucess:
+![pere fouras success](https://github.com/user-attachments/assets/3f3c6b84-6902-41c8-8a08-4aa2695c5a97)
+
 
 
 
