@@ -71,17 +71,17 @@ For 25/12 : (?)
 ### Task distribution and the real chronology :
 We were late on our goal chronology so we did not had time to do the bonus.
     
-3 Maths challenges : Laure
-2 Chance challenges : Cristina
-1 Logic challenge : Cristina
-Pere Fouras’ Riddles challenge: Laure
+* 3 Maths challenges : Laure
+* 2 Chance challenges : Cristina
+* 1 Logic challenge : Cristina
+* Pere Fouras’ Riddles challenge: Laure
 
-Utility functions : Laure
-Main : The game function : Laure
+* Utility functions : Laure
+* Main : The game function : Laure
  
-Final challenge : Cristina
+* Final challenge : Cristina
 
-Read Me : Cristina and Laure
+* Read Me : Cristina and Laure
 
 
 **First submission : 21/12/2024
