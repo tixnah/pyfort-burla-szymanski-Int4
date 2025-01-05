@@ -70,11 +70,15 @@ For 25/12 : (?)
 
 ### Task distribution and the real chronology :
 We were late on our goal chronology so we did not had time to do the bonus.
-    
+
+ #### Before the interim submission :
+ 
 * 3 Maths challenges : Laure
 * 2 Chance challenges : Cristina
 * 1 Logic challenge : Cristina
 * Pere Fouras’ Riddles challenge: Laure
+
+#### Before the final submission :
 
 * Utility functions : Laure
 * Main : The game function : Laure
