@@ -92,6 +92,34 @@ Defense : 06/01/2025**
 we tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. and then the final challenge. 
 
 for the introduction of the game using the utility functions:
-![introduction, compose equipe, choose of the game, choose of the player](https://github.com/user-attachments/assets/7a265cc7-5a4d-4f33-9337-5c0457665d86)
+![introduction, compose equipe, choose of the game, choose of the player]![image](https://github.com/user-attachments/assets/eb6cce36-4f20-419a-af21-5a69aeba4bb0)
+
+
+for the roulette challenge sucess and fail :
+
+fail:
+![roulette math fail](https://github.com/user-attachments/assets/dbafa935-3799-4acd-8ec3-1143c97acc8b)
+
+sucess
+![roulette math success](https://github.com/user-attachments/assets/0e0ca07b-27d3-44be-87fa-f5e14016e5d0)
+
+for the linear equations:
+
+fail:
+
+![linear math fail](https://github.com/user-attachments/assets/5f227372-b5cb-4227-8c6e-7c2476ab7434)
+
+sucess (and a test diplaying the player key count when he wins and see if it updates (the key count goes from 0 to 1):
+
+![math challenge linear equation et test](https://github.com/user-attachments/assets/32c50f13-3330-461b-ad3a-367c71faa32c)
+
+for the roulette challenge:
+
+fail:
+![roulette math fail](https://github.com/user-attachments/assets/45ef4676-e0f2-48a6-b0ca-08ad89c9b700)
+
+sucess:
+![roulette math success](https://github.com/user-attachments/assets/bba190bc-d41e-4fd4-be1e-c7b481bf6c38)
+
 
 
