@@ -39,11 +39,11 @@ All the way long we kept track of the avancement with deadlines and to do lists.
 7 - Main file
 8 - Read Me file 
 
-###Functions:
-### Input and error management:
-#### Input:
+### Functions:
+#### Input and error management:
+##### Input:
 When the program ask a number as an input it will make the program crash if it is not a number that is entered. We could improve that by using the table of code ascii and  ask the user to re-unter the code until it is a valid input using a while loop.
-#### Errors:
+##### Errors:
 For the error management we used : test. We try running the program try to understand where it does not work, add print at each line to understand where it doesnt work how we want it to.
 
 ## Chronology:
