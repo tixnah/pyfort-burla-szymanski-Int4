@@ -11,15 +11,14 @@ For each game success the player gets a key and when they have collected 3 keys 
 For this we had to use Python so we worked on PyCharm and on modules such as json, random and time. 
 
 
-### Intallation :
-We already had downloaded PyCharm because we had to do our lab sessions on it.
+### Intallation and How to use :
+We already had downloaded PyCharm and Python because we had to do our lab sessions on it.
 To clone the Git repository on PyCharm, we first created the repository on GitHub then we copied the link of the latter before pasting it into PyCharm. To paste this link, we had to go in the main menu then in 'File' then in 'Project from Version Control...' and there we could paste the link in URL. 
 Finally, we had to log into our account.
 
+When we did changement on our code we just needed to to commit and oush to the git.
 
-### How to use :
-
-to be completed 
+We could also code together on the same files which was useful when we assembled all the files together.
 
 ## Technical documentation
 
@@ -45,7 +44,7 @@ All the way long we kept track of the avancement with deadlines and to do lists.
 #### Input:
 When the program ask a number as an input it will make the program crash if it is not a number that is entered. We could improve that by using the table of code ascii and  ask the user to re-unter the code until it is a valid input using a while loop.
 #### Errors:
-for the error management we used : test. We try running the program try to understand where it does not work, add print at each line to understand where it doesnt work how we want it to.
+For the error management we used : test. We try running the program try to understand where it does not work, add print at each line to understand where it doesnt work how we want it to.
 
 ## Chronology:
 
