@@ -16,7 +16,7 @@ We already had downloaded PyCharm and Python because we had to do our lab sessio
 To clone the Git repository on PyCharm, we first created the repository on GitHub then we copied the link of the latter before pasting it into PyCharm. To paste this link, we had to go in the main menu then in 'File' then in 'Project from Version Control...' and there we could paste the link in URL. 
 Finally, we had to log into our account.
 
-When we did changement on our code we just needed to to commit and oush to the git.
+When we did changement on our code we just needed to to commit and p to the git.
 
 We could also code together on the same files which was useful when we assembled all the files together.
 
