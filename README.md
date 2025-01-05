@@ -49,7 +49,7 @@ for the error management we used : test. We try running the program try to under
 
 ## Chronology:
 
-#### Our chronoly goal:
+#### Our chronology goal:
 For 17/12 :
 - Challenges :
     * 3 Mathematics : Laure
@@ -71,7 +71,7 @@ For 25/12 : (?)
 ####Task distribution and the real chronology :
 We were late on our goal chronology so we did not had time to do the bonus.
     
-3 Mathematic challenges : Laure
+3 Maths challenges : Laure
 2 Chance challenges : Cristina
 1 Logic challenge : Cristina
 Pere Fouras’ Riddles challenge: Laure
@@ -102,7 +102,7 @@ fail:
 
 ![roulette math fail](https://github.com/user-attachments/assets/dbafa935-3799-4acd-8ec3-1143c97acc8b)
 
-sucess:
+success:
 
 ![roulette math success](https://github.com/user-attachments/assets/0e0ca07b-27d3-44be-87fa-f5e14016e5d0)
 
@@ -112,7 +112,7 @@ fail:
 
 ![linear math fail](https://github.com/user-attachments/assets/5f227372-b5cb-4227-8c6e-7c2476ab7434)
 
-sucess (and a test diplaying the player key count when he wins and see if it updates (the key count goes from 0 to 1):
+success (and a test diplaying the player key count when he wins and see if it updates (the key count goes from 0 to 1):
 
 ![math challenge linear equation et test](https://github.com/user-attachments/assets/32c50f13-3330-461b-ad3a-367c71faa32c)
 
@@ -122,7 +122,7 @@ fail:
 
 ![roulette math fail](https://github.com/user-attachments/assets/45ef4676-e0f2-48a6-b0ca-08ad89c9b700)
 
-sucess:
+success:
 
 ![roulette math success](https://github.com/user-attachments/assets/bba190bc-d41e-4fd4-be1e-c7b481bf6c38)
 
@@ -132,10 +132,46 @@ fail:
 
 ![pere fourras fail](https://github.com/user-attachments/assets/fd632265-ac1c-41d7-8ffd-893d37a575b5)
 
-sucess:
+success:
 
 ![pere fouras success](https://github.com/user-attachments/assets/3f3c6b84-6902-41c8-8a08-4aa2695c5a97)
 
 
+###For the chance challenges :
+####For the shell game :
 
+fail :
+
+![image](https://github.com/user-attachments/assets/e08c5ecf-f267-4d18-a699-639e9bcad072)
+
+success :
+
+![image](https://github.com/user-attachments/assets/3db2f3ff-da13-436d-b283-5e3441636366)
+
+
+####For the rolling dice game :
+
+fail :
+
+![image](https://github.com/user-attachments/assets/7b1eb77d-7a4c-4c64-8b2b-68da9c4b240a)
+
+success :
+
+![image](https://github.com/user-attachments/assets/0448826d-ff6c-4afd-8d1a-0a6697589dfc)
+
+
+###For the logical challenge :
+
+![image](https://github.com/user-attachments/assets/0af03a36-8d75-4207-b229-50178604c030)
+
+
+###For the final challenge :
+
+fail :
+
+![image](https://github.com/user-attachments/assets/11e1c9d4-e8b0-4aa9-9582-b4e2c44852bb)
+
+success :
+
+![image](https://github.com/user-attachments/assets/45679e38-185d-456a-8981-d6f9274e199e)
 
