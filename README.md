@@ -95,7 +95,7 @@ for the introduction of the game using the utility functions:
 ![introduction, compose equipe, choose of the game, choose of the player]![image](https://github.com/user-attachments/assets/eb6cce36-4f20-419a-af21-5a69aeba4bb0)
 
 
-for the roulette challenge sucess and fail :
+for the roulette challenge  :
 
 fail:
 ![roulette math fail](https://github.com/user-attachments/assets/dbafa935-3799-4acd-8ec3-1143c97acc8b)
