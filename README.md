@@ -23,7 +23,7 @@ to be completed
 
 ## Technical documentation
 
-###game algorithm:
+### Game algorithm:
 
 For our project, we chose to complete the tasks in the following order : 
 First, we decided to start by the easiest tasks : the challenges.
@@ -42,9 +42,9 @@ All the way long we kept track of the avancement with deadlines and to do lists.
 
 ###Functions:
 ### Input and error management:
-####input:
+#### Input:
 When the program ask a number as an input it will make the program crash if it is not a number that is entered. We could improve that by using the table of code ascii and  ask the user to re-unter the code until it is a valid input using a while loop.
-####errors:
+#### Errors:
 for the error management we used : test. We try running the program try to understand where it does not work, add print at each line to understand where it doesnt work how we want it to.
 
 ## Chronology:
@@ -68,7 +68,7 @@ For 21/12 :
 For 25/12 : (?)
 - Bonus : History
 
-####Task distribution and the real chronology :
+### Task distribution and the real chronology :
 We were late on our goal chronology so we did not had time to do the bonus.
     
 3 Maths challenges : Laure
@@ -91,12 +91,13 @@ Defense : 06/01/2025**
 ## Testing validation :
 We tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. Then the final challenge. 
 
-###for the introduction of the game using the utility functions:
+### For the introduction of the game using the utility functions:
 
 ![introduction, compose equipe, choose of the game, choose of the player](https://github.com/user-attachments/assets/b26d3123-3f34-4b8c-9f56-5cfa42986a2c)
 
-###For the math challenges
-####for the roulette challenge  :
+### For the math challenges:
+
+#### For the roulette challenge  :
 
 fail:
 
@@ -106,7 +107,7 @@ success:
 
 ![roulette math success](https://github.com/user-attachments/assets/0e0ca07b-27d3-44be-87fa-f5e14016e5d0)
 
-for the linear equations:
+#### For the linear equations:
 
 fail:
 
@@ -116,7 +117,7 @@ success (and a test diplaying the player key count when he wins and see if it up
 
 ![math challenge linear equation et test](https://github.com/user-attachments/assets/32c50f13-3330-461b-ad3a-367c71faa32c)
 
-for the roulette challenge:
+#### For the roulette challenge:
 
 fail:
 
@@ -126,7 +127,7 @@ success:
 
 ![roulette math success](https://github.com/user-attachments/assets/bba190bc-d41e-4fd4-be1e-c7b481bf6c38)
 
-###For père fouras' challenge:
+#### For père fouras' challenge:
 
 fail:
 
@@ -137,8 +138,9 @@ success:
 ![pere fouras success](https://github.com/user-attachments/assets/3f3c6b84-6902-41c8-8a08-4aa2695c5a97)
 
 
-###For the chance challenges :
-####For the shell game :
+### For the chance challenges :
+
+#### For the shell game :
 
 fail :
 
@@ -149,7 +151,7 @@ success :
 ![image](https://github.com/user-attachments/assets/3db2f3ff-da13-436d-b283-5e3441636366)
 
 
-####For the rolling dice game :
+#### For the rolling dice game :
 
 fail :
 
@@ -160,12 +162,12 @@ success :
 ![image](https://github.com/user-attachments/assets/0448826d-ff6c-4afd-8d1a-0a6697589dfc)
 
 
-###For the logical challenge :
+#### For the logical challenge :
 
 ![image](https://github.com/user-attachments/assets/0af03a36-8d75-4207-b229-50178604c030)
 
 
-###For the final challenge :
+#### For the final challenge :
 
 fail :
 
