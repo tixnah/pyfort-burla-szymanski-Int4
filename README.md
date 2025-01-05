@@ -99,9 +99,11 @@ we tried our program using it with one or 2/3 players. Then we tried all the cha
 ####for the roulette challenge  :
 
 fail:
+
 ![roulette math fail](https://github.com/user-attachments/assets/dbafa935-3799-4acd-8ec3-1143c97acc8b)
 
-sucess
+sucess:
+
 ![roulette math success](https://github.com/user-attachments/assets/0e0ca07b-27d3-44be-87fa-f5e14016e5d0)
 
 for the linear equations:
@@ -117,14 +119,17 @@ sucess (and a test diplaying the player key count when he wins and see if it upd
 for the roulette challenge:
 
 fail:
+
 ![roulette math fail](https://github.com/user-attachments/assets/45ef4676-e0f2-48a6-b0ca-08ad89c9b700)
 
 sucess:
+
 ![roulette math success](https://github.com/user-attachments/assets/bba190bc-d41e-4fd4-be1e-c7b481bf6c38)
 
 ###For père fouras' challenge:
 
 fail:
+
 ![pere fourras fail](https://github.com/user-attachments/assets/fd632265-ac1c-41d7-8ffd-893d37a575b5)
 
 sucess:
