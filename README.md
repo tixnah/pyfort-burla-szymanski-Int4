@@ -89,7 +89,7 @@ Final submission : 05/01/2025
 Defense : 06/01/2025**
 
 ## Testing validation :
-we tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. and then the final challenge. 
+We tried our program using it with one or 2/3 players. Then we tried all the challenges we made to check if no error was detected. Then the final challenge. 
 
 ###for the introduction of the game using the utility functions:
 
