@@ -44,9 +44,6 @@ For 21/12 :
  
 
 For 25/12 : (?)
-- Interface :
-    * Home screen
-    * Little character and his movements
 - Bonus : History
 
 
