@@ -31,12 +31,19 @@ Finally we made the Read Me so we could submit our work.
 All the way long we kept track of the avancement with deadlines and to do lists.
 
 1 - Math challenges
+
 2 - Chance challenges
+
 3 - Logical challenge
+
 4 - Père Fouras' riddles
+
 5 - Final challenge
+
 6 - Utility functions
+
 7 - Main file
+
 8 - Read Me file 
 
 ### Functions:
